@@ -1,4 +1,6 @@
 #! /usr/bin/env node
+import chalk from "chalk";
+console.log(chalk.yellow("WELCOME TO TODOS!"));
 import inquirer from "inquirer";
 let todos = [];
 let condition = true;
